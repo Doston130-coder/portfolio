@@ -703,7 +703,7 @@ section {
 }
 
 .projects-grid {
-
+justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -711,8 +711,8 @@ section {
     margin: 0 auto;
 }
 .project-card {
-
-    background: var(--bg);
+    justify-content: left 50px;
+    background-color: #2965f1;
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 2.2rem 1.8rem;
