@@ -697,6 +697,7 @@ section {
    PROJECTS
    ================================================ */
 .projects-section {
+    justify-content: center;
     background: var(--bg2);
     border-top: 1px solid var(--border);
 }
