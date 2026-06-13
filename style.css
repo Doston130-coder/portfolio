@@ -704,7 +704,11 @@ section {
 
 .projects-grid {
 
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
     max-width: 1200px;
