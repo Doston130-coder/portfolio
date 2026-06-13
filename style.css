@@ -697,12 +697,12 @@ section {
    PROJECTS
    ================================================ */
 .projects-section {
-    margin-left: 350px;
     background: var(--bg2);
     border-top: 1px solid var(--border);
 }
 
 .projects-grid {
+    margin-left: 255px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -711,7 +711,7 @@ section {
 }
 
 .project-card {
-    
+    margin-left: 250px;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
