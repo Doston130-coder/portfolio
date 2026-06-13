@@ -710,6 +710,7 @@ section {
     margin: 0 auto;
 }
 .project-card {
+    margin-left: 250px;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
