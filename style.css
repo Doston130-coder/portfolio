@@ -711,8 +711,7 @@ section {
     margin: 0 auto;
 }
 .project-card {
-    color: white;
-    background-color: #505d7c;
+    background-color: #645c7b;
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 2.2rem 1.8rem;
