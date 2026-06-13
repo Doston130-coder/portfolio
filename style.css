@@ -702,6 +702,8 @@ section {
 }
 
 .projects-grid {
+    width: 300px;
+    height: 250px;
     margin-left: 255px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -711,6 +713,8 @@ section {
 }
 
 .project-card {
+    width: 300px;
+    height: 250px;
     margin-left: 250px;
     background: var(--bg);
     border: 1px solid var(--border);
