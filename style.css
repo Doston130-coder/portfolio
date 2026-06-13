@@ -702,9 +702,7 @@ section {
 }
 
 .projects-grid {
-    width: 300px;
-    height: 250px;
-    margin-left: 255px;
+    margin-left: 205px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -713,9 +711,8 @@ section {
 }
 
 .project-card {
-    width: 300px;
-    height: 250px;
-    margin-left: 250px;
+   
+    margin-left: 200px;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
