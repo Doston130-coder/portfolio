@@ -711,6 +711,7 @@ section {
 }
 
 .project-card {
+    justify-content: center;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
