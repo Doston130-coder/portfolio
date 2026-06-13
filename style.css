@@ -702,7 +702,7 @@ section {
 }
 
 .projects-grid {
-    margin-left: 250px;
+    margin-left: 280px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -710,7 +710,7 @@ section {
     margin: 0 auto;
 }
 .project-card {
-    margin-left: 60px;
+    margin-left: 100px;
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
