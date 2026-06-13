@@ -779,7 +779,7 @@ section {
 }
 
 .project-card h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--ink);
@@ -788,7 +788,7 @@ section {
 }
 
 .project-card p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 0.87rem;
     color: var(--muted);
     line-height: 1.6;
