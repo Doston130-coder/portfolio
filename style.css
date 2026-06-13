@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    padding:20px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 10%;
+}
+
+.hero-text h1{
+    font-size:60px;
+}
+
+.hero-text p{
+    font-size:22px;
+    margin:20px 0;
+    color:#94a3b8;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.hero-img img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+}
+
+section{
+    padding:80px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:250px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+#contact{
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    gap:30px;
+}
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-img img{
+    width:250px;
+    height:250px;
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+}
+.famli{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.oyi{
+    background-color: rgb(192, 140, 73);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+img{
+    border-radius: 5px;
+}
+.ukam{
+    background-color: rgb(192, 140, 73);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+.dada{
+    background-color: rgb(192, 140, 73);
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
