@@ -698,12 +698,12 @@ section {
    ================================================ */
 .projects-section {
     justify-content: center;
-    align-items: center;
     background: var(--bg2);
     border-top: 1px solid var(--border);
 }
 
 .projects-grid {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -711,7 +711,8 @@ section {
     margin: 0 auto;
 }
 .project-card {
-    background-color: #645c7b;
+
+    background: var(--bg);
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 2.2rem 1.8rem;
